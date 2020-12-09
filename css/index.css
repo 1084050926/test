@@ -1,0 +1,145 @@
+/* @media screen and (min-width: 1490px) {
+  .container {
+    width: 1490px;
+  }
+} */
+/* 清除a 的初始化样式 */
+a {
+  color: #000000;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #000000;
+}
+/* 清除 ul 内外边距 */
+
+/* 清除内外边距 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: '微软雅黑';
+}
+/* 给全部大盒子加个左边距 */
+.ml {
+  margin-left: 5px;
+}
+/* 头部 */
+header {
+  position: relative;
+  height: 48px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 48px;
+  background-color: #f7f7f7;
+}
+
+/* 返回按钮 */
+.back {
+  float: left;
+  position: absolute;
+  left: 30px;
+}
+.back img {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+.btn {
+  padding-left: 0;
+}
+/* 按钮 */
+.row > button {
+  width: 70px;
+  height: 34px;
+  margin: 0 10px 10px 0;
+  font-size: 16px;
+  background-color: red;
+  color: #fff;
+  border-radius: 8px;
+  border: 0;
+}
+/* 按钮阴影 */
+
+.btn-shadow {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+/* 售后 */
+.after-sale {
+  margin: 10px 0 15px;
+}
+/* 配送电话 */
+.delivery {
+  font-size: 20px;
+  color: red;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* 点击按钮下方联系方式显示 */
+
+.menu {
+  display: none;
+  margin-top: 20px;
+}
+.block {
+  display: block;
+}
+.menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menu-li {
+  /* background-color: skyblue; */
+  /* 给每个区盒子拉开边距 */
+  margin-bottom: 20px;
+}
+.active {
+  width: 90%;
+  /* margin-bottom: 10px; */
+  font-size: 18px;
+  background: url(../images/arr.png) no-repeat center right;
+  background-size: 20px 20px;
+  transform: rotateX(0deg);
+}
+.active1 {
+  /* 隐藏盒子等点击了再显示 */
+  display: none;
+  /* 包含联系方式盒子的高度 */
+  /* height: 80px; */
+  /* 包含联系方式盒子的边框 */
+  border: 1px solid #ccc;
+  /* 圆角 */
+  border-radius: 10px;
+  /* background-color: pink; */
+}
+.active1-h40 {
+  height: 40px;
+  line-height: 40px;
+}
+
+.active1-3 {
+  width: 54px;
+  height: 24px;
+  margin-top: 8px;
+
+  background-color: #fff;
+  border: 1px solid red;
+  border-radius: 10px;
+  line-height: 20px;
+}
+/* 底部 */
+.footer-btn {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  line-height: 48px;
+  background-color: #ff0000;
+  outline: none;
+  border: 0;
+}
